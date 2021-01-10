@@ -1,9 +1,8 @@
-meses=input('Ingrese el número del mes que desee: ' )
-def cuantos_dias(mes):
-	if mes.lower() in ("1","3","5","7","9","11"): 
-		return "31 días"
-	elif mes.lower() == "2":
-		return "28 días"
-	else:
-		return "30 días"
-print(cuantos_dias(meses))
+cateto_op=int(input('ingrese el primer lado del triángulo: ') )
+cateto_ady=int(input('Ingrese el segundo lado del triángulo: ') )
+hipot=int(input('Ingrese el tercer lado del triángulo: ') )
+triangulo= cateto_op+cateto_ady+hipot
+if triangulo >=3:
+	print("se ha formado un triángulo")
+else:
+	print ("Eso no es un triángulo")

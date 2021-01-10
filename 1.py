@@ -1,6 +1,7 @@
-dia=input('Ingrese dia con números: ' )
-mes=input('Ingrese el mes escrito con letras: ' )
-anio=input('Ingrese año: ' )
-def imprimo_fecha():
-	return (dia,"de", mes, "de", anio)
-print (imprimo_fecha())
+#TP 4
+num1=int(input('Ingrese el número deseado: ') )
+resto=num1%6
+if resto==0:
+	print("el número", num1, "es divisible por 6")
+else:
+	print("El número ingresado no es divisible por 6")
